@@ -7,10 +7,15 @@ My Papers reading notes.
 	* Investigate the works of Neural Style Transfer till May of 2016.
 - [ ] [Demystifying Neural Style Transfer](https://arxiv.org/abs/1701.01036)
 	* Prove that matching the Gram matrices is actually equivalent to minimize the Maximum Mean Discrepancy(MMD) with second order polynomial kernel.
-	* Try out for different kernel and parameters.
+	* Try out for different kernels and parameters.
 - [ ] [Fast Patch-based Style Transfer of Arbitrary Style](https://arxiv.org/abs/1612.04337)
 	* A more advanced version of "Fast" Neural Style Transfer that can run in real-time and applies to infinite kind of styles.
 	* The drawback is the quality of stylized images is worse than "Fast" Neural Style which yet can only applies to finite styles.
+
+### Generative Model
+- [ ] [Pixel Recurrent Neural Networks(Best Paper of ICML2016)](https://arxiv.org/abs/1601.06759)
+- [ ] [Conditional Image Generation with PixelCNN Decoders](https://arxiv.org/abs/1606.05328)
+- [ ] [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499)
 
 ## License
 This project is licensed under the terms of the MIT license.
