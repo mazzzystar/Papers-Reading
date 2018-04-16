@@ -20,10 +20,10 @@ My reading notes on DL papers, along with my personal comment of each paper, so 
 	* An improvement to PixelRNN & PixelCNN by adding an additional `Gated activation unit`.
 	* Use two stack(vertical and horizontal) to aviod the `blind spot` in Mask.
 	* Explore the performance of image generation in this kind of `Gated PixelCNN` in conditional distribution image, actually it seems not as good as GAN but, still another method and therefore lead to the famous [WaveNet](https://arxiv.org/abs/1609.03499).
-- [ ] [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499) :star::star::star::star::star:
-	* A summary of papers above, and use these methods in audio.
+- [x] [WaveNet: A Generative Model for Raw Audio](https://github.com/fancoo/Papers-Reading/blob/master/Generative-Model/WaveNet_%20A%20Generative%20Model%20for%20Raw%20Audio.pdf) :star::star::star::star::star:
+	* A summary of papers of above, and use these methods in audio.
 	* Keywords: fuse the technic of `Dilated Casual Convolution`, `Gated Activation Units` and `residual network` along with `skip connections`.
-	* Based on `Conditional WaveNet`, they explored `Multi-Speaker Speech Generation`, `TTS(Text-To-Speech)` and `Music Generation` by feeding additional input `h`. In speech generation, it's speaker ID of one-hot vector, in TTS it's the text, in music generation it's the tag of generated musich, like the instruments or the genre.
+	* Based on Conditional WaveNet, they explored the experiments of `Multi-Speaker Speech Generation`, `TTS(Text-To-Speech)` and `Music Generation` by feeding additional input `h`. In speech generation, it's speaker ID of one-hot vector, in TTS it's the text while in music generation it's the tag of generated musich, like the instruments or the genre.
 - [ ] [Parallel WaveNet: Fast High-Fidelity Speech Synthesis](https://arxiv.org/abs/1711.10433)
 
 
