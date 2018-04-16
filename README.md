@@ -1,5 +1,5 @@
 # Papers-Reading
-My Papers reading notes.
+My Papers reading notes, along with my personal summary about each paper, so there may exist lots of mistakes, I really appreciate you to point out.
 
 ## Contents
 ### Neural Style Transfer
@@ -13,7 +13,9 @@ My Papers reading notes.
 	* The drawback is the quality of stylized images is worse than "Fast" Neural Style which yet can only applies to finite styles.
 
 ### Generative Model
-- [ ] [Pixel Recurrent Neural Networks(Best Paper of ICML2016)](https://arxiv.org/abs/1601.06759)
+- [x] [Pixel Recurrent Neural Networks(Best Paper of ICML2016)](https://github.com/fancoo/Papers-Reading/blob/master/Generative-Model/Pixel%20Recurrent%20Neural%20Networks.pdf)
+	* I quickly skimmed this paper, it introduced a new method to generate image pixel by pixel with sequence model, which means **you can only predict current pixel by it's previous pixels.**
+	* The loss curve is much more smooth and interpretatable than GAN.
 - [ ] [Conditional Image Generation with PixelCNN Decoders](https://arxiv.org/abs/1606.05328)
 - [ ] [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499)
 
