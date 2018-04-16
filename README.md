@@ -14,7 +14,7 @@ My Papers reading notes, along with my personal summary about each paper, so the
 
 ### Generative Model
 - [x] [Pixel Recurrent Neural Networks(Best Paper of ICML2016)](https://github.com/fancoo/Papers-Reading/blob/master/Generative-Model/Pixel%20Recurrent%20Neural%20Networks.pdf) :star::star::star::star:
-	* I quickly skimmed this paper, it introduced a new method to generate image pixel by pixel with sequence model, which means **you can only predict current pixel by it's previous pixels.**
+	* I quickly skimmed this paper, it introduced a new method to generate image pixel by pixel with sequence model, which means **you can only predict current pixel by it's previous pixels(namely the pixels above and to the left of it).** To achieve this, they introduce a `mask` to make sure model can not read later pixels.
 	* The loss curve is much more smooth and interpretatable compared to GAN.
 - [ ] [Conditional Image Generation with PixelCNN Decoders](https://arxiv.org/abs/1606.05328)
 - [ ] [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499)
