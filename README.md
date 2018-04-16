@@ -13,9 +13,9 @@ My Papers reading notes, along with my personal summary about each paper, so the
 	* The drawback is the quality of stylized images is worse than "Fast" Neural Style which yet can only applies to finite styles.
 
 ### Generative Model
-- [x] [Pixel Recurrent Neural Networks(Best Paper of ICML2016)](https://github.com/fancoo/Papers-Reading/blob/master/Generative-Model/Pixel%20Recurrent%20Neural%20Networks.pdf)
+- [x] [Pixel Recurrent Neural Networks(Best Paper of ICML2016)](https://github.com/fancoo/Papers-Reading/blob/master/Generative-Model/Pixel%20Recurrent%20Neural%20Networks.pdf) :star::star::star::star:
 	* I quickly skimmed this paper, it introduced a new method to generate image pixel by pixel with sequence model, which means **you can only predict current pixel by it's previous pixels.**
-	* The loss curve is much more smooth and interpretatable than GAN.
+	* The loss curve is much more smooth and interpretatable compared to GAN.
 - [ ] [Conditional Image Generation with PixelCNN Decoders](https://arxiv.org/abs/1606.05328)
 - [ ] [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499)
 
