@@ -26,6 +26,18 @@ My reading notes on DL papers, along with my personal comment of each paper, so 
 	* Based on Conditional WaveNet, they explored the experiments of `Multi-Speaker Speech Generation`, `TTS(Text-To-Speech)` and `Music Generation` by feeding additional input `h`. In speech generation, it's speaker ID of one-hot vector, in TTS it's the text while in music generation it's the tag of generated musich, like the instruments or the genre.
 - [ ] [Parallel WaveNet: Fast High-Fidelity Speech Synthesis](https://arxiv.org/abs/1711.10433)
 
+### Speech
+#### WaveNet(Mentioned before)
+
+#### Tactron
+- [ ] [Tacotron: Towards End-to-End Speech Synthesis](https://arxiv.org/abs/1703.10135)
+- [ ] [Tacotron series](https://google.github.io/tacotron/index.html)
+
+#### Deep Voice
+- [ ] [Deep Voice: Real-time Neural Text-to-Speech](https://arxiv.org/abs/1702.07825)
+- [ ] [Deep Voice 2: Multi-Speaker Neural Text-to-Speech](https://arxiv.org/abs/1705.08947)
+- [ ] [Deep Voice 3: Scaling Text-to-Speech with Convolutional Sequence Learning](https://arxiv.org/abs/1710.07654)
+
 
 ## License
 This project is licensed under the terms of the MIT license.
