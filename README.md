@@ -37,6 +37,8 @@ My reading notes on DL papers, along with my personal comment of each paper, so 
 - [ ] [Deep Voice: Real-time Neural Text-to-Speech](https://arxiv.org/abs/1702.07825)
 - [ ] [Deep Voice 2: Multi-Speaker Neural Text-to-Speech](https://arxiv.org/abs/1705.08947)
 - [ ] [Deep Voice 3: Scaling Text-to-Speech with Convolutional Sequence Learning](https://arxiv.org/abs/1710.07654)
+- [ ] [Neural Voice Cloning with a Few Samples](https://arxiv.org/abs/1802.06006)
+	* A fresh new paper by `Baidu` of using a few samples to generate a lot of TTS audio.
 
 
 ## License
