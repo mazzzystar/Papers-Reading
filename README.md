@@ -42,7 +42,7 @@ My reading notes on DL papers, along with my personal comment of each paper, so 
 
 ### Voice Transfer
 Papers related with my current research.
-- [x] [Deep Voice: Real-time Neural Text-to-Speech](https://arxiv.org/abs/1702.07825):star::star::star:
+- [x] [Singing Expression Transfer from One Voice to Another for a Given Song](https://github.com/fancoo/Papers-Reading/blob/master/Voice-Transfer/SINGING%20EXPRESSION%20TRANSFER%20FROM%20ONE%20VOICE%20TO%20ANOTHER%20FOR%20A%20GIVEN%20SONG.pdf):star::star::star:
 	* I skim the paper, it introduced a method of to improve our singing records: first we have a `source` audio(my voice), and a `target` audio which we want to sing as well as him/her. We first align the two pieces voice and compare them frame-by-fram with some features like phoneme etc.
 	* Their sample is [Singing Expression Transfer](https://seyong92.github.io/singing-expression-transfer/), the results are not so good and it's apparently not what I'm interested in.
 
