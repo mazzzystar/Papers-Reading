@@ -40,6 +40,12 @@ My reading notes on DL papers, along with my personal comment of each paper, so 
 - [ ] [Neural Voice Cloning with a Few Samples](https://arxiv.org/abs/1802.06006)
 	* A fresh new paper by `Baidu` of using a few samples to generate a lot of TTS audio.
 
+### Voice Transfer
+Papers related with my current research.
+- [x] [Deep Voice: Real-time Neural Text-to-Speech](https://arxiv.org/abs/1702.07825):star::star::star:
+	* I skim the paper, it introduced a method of to improve our singing records: first we have a `source` audio(my voice), and a `target` audio which we want to sing as well as him/her. We first align the two pieces voice and compare them frame-by-fram with some features like phoneme etc.
+	* Their sample is [Singing Expression Transfer](https://seyong92.github.io/singing-expression-transfer/), the results are not so good and it's apparently not what I'm interested in.
+
 
 ## License
 This project is licensed under the terms of the MIT license.
