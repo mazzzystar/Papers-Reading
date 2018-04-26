@@ -48,8 +48,8 @@ Papers related with my current research.
 - [x] [Time Domain Neural Audio Style Transfer(NIPS2017)](https://github.com/fancoo/Papers-Reading/blob/master/Voice-Transfer/Time%20Domain%20Neural%20Audio%20Style%20Transfer.pdf):star::star::star:
 	* This paper presents a method for audio style transfer by directly optimizing a time domain audio signal, it explores many architectures(e.g WaveNet encoder/NSynth encoder), the result is almost the same as `Ulyanov` but real-time?
 	* The github implementation is [time-domain-neural-audio-style-transfer](https://github.com/pkmital/time-domain-neural-audio-style-transfer)
-- [Synthesizing Audio with Generative Adversarial Networks](https://arxiv.org/abs/1802.04208)
-- [Universal Style Transfer via Feature Transforms](https://arxiv.org/abs/1705.08086)
+- [ ] [Synthesizing Audio with Generative Adversarial Networks](https://arxiv.org/abs/1802.04208)
+- [ ] [Universal Style Transfer via Feature Transforms](https://arxiv.org/abs/1705.08086)
 
 ## License
 This project is licensed under the terms of the MIT license.
