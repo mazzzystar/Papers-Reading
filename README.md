@@ -50,9 +50,9 @@ Papers related with my current research.
 	* The github implementation is [time-domain-neural-audio-style-transfer](https://github.com/pkmital/time-domain-neural-audio-style-transfer)
 - [ ] [Synthesizing Audio with Generative Adversarial Networks](https://arxiv.org/abs/1802.04208)
 - [ ] [Universal Style Transfer via Feature Transforms](https://arxiv.org/abs/1705.08086)
-- [x] [Audio Style Transfer]():star::star::star:
+- [x] [Audio Style Transfer](https://github.com/fancoo/Papers-Reading/blob/master/Voice-Transfer/Audio%20Style%20Transfer.pdf):star::star::star:
 	* Try with `VGG-19`, `SoundNet`, `Wide-Shallow-Random Network` and `McDermott's texture synthesis` method to extract the style. The last 2 has meaningful results, `McDermott's..` recreates better local texture.
-	* Shows that starting from content image can produce better results comapred to random generated.
+	* Shows that **starting from content image can produce better results** comapred to random generated.
 
 ## License
 This project is licensed under the terms of the MIT license.
