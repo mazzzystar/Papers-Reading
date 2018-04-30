@@ -53,7 +53,7 @@ Papers related with my current research.
 - [x] [Audio Style Transfer](https://github.com/fancoo/Papers-Reading/blob/master/Voice-Transfer/Audio%20Style%20Transfer.pdf):star::star::star:
 	* Try with `VGG-19`, `SoundNet`, `Wide-Shallow-Random Network` and `McDermott's texture synthesis` method to extract the style. The last 2 has meaningful results, `McDermott's..` recreates better local texture.
 	* Shows that **starting from content image can produce better results** comapred to random generated.
-- [x] [On Using Backpropagation for Speech Texture Generation and Voice Conversion](https://github.com/fancoo/Papers-Reading/blob/master/Voice-Transfer/%20On%20Using%20Backpropagation%20for%20Speech%20Texture%20Generation%20and%20Voice%20Conversion.pdf):star::star::star::star:
+- [x] [On Using Backpropagation for Speech Texture Generation and Voice Conversion(Google, 2018.03)](https://github.com/fancoo/Papers-Reading/blob/master/Voice-Transfer/%20On%20Using%20Backpropagation%20for%20Speech%20Texture%20Generation%20and%20Voice%20Conversion.pdf):star::star::star::star:
 	* Use the architecture of CTC speech recognition network to train a CONV.
 	* Extract speaker characteristics from very limited amounts of target speaker data.
 	* Did the experiment of `style transfer` and others, the result page is [here](https://google.github.io/speech_style_transfer/samples.html)
