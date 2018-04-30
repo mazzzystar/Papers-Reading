@@ -57,7 +57,7 @@ Papers related with my current research.
 	* Use the architecture of CTC speech recognition network to train a CONV.
 	* Extract speaker characteristics from very limited amounts of target speaker data.
 	* Did the experiment of `style transfer` and others, the result page is [here](https://google.github.io/speech_style_transfer/samples.html)
-- [x] [Audio spectrogram representations for processing with Convolutional Neural Networks]():star::star::star:
+- [x] [Audio spectrogram representations for processing with Convolutional Neural Networks](https://github.com/fancoo/Papers-Reading/blob/master/Voice-Transfer/Audio%20spectrogram%20representations%20for%20processing%20with%20Convolutional%20Neural%20Networks.pdf):star::star::star:
 	* The major contribution of this paper is, to go on [Ulyanov's idea](https://dmitryulyanov.github.io/audio-texture-synthesis-and-style-transfer/) by training a network with two convolutional layers and two
 fully-connected layers on the [ESC-50](https://github.com/karoldvl/ESC-50) data, and replaced the original `random param CNN` with pre-trained CNN.
 	* The result shows that **although style transfer does work without regard to weights, a network trained for
