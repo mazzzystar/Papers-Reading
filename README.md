@@ -60,7 +60,7 @@ Papers related with my current research.
 - [x] [Audio spectrogram representations for processing with Convolutional Neural Networks](https://github.com/fancoo/Papers-Reading/blob/master/Voice-Transfer/Audio%20spectrogram%20representations%20for%20processing%20with%20Convolutional%20Neural%20Networks.pdf):star::star::star:
 	* The major contribution of this paper is, to go on [Ulyanov's idea](https://dmitryulyanov.github.io/audio-texture-synthesis-and-style-transfer/) by training a network with two convolutional layers and two
 fully-connected layers on the [ESC-50](https://github.com/karoldvl/ESC-50) data, and replaced the original `random param CNN` with pre-trained CNN.
-	* The result shows that **although style transfer does work without regard to weights, a network trained for
+	* Their [result demo](http://lonce.org/research/audioST/) shows that **although style transfer does work without regard to weights, a network trained for
 audio classification appears to generate a more integrated synthesis of content and style**
 
 ## License
