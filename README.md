@@ -62,7 +62,9 @@ Papers related with my current research.
 fully-connected layers on the [ESC-50](https://github.com/karoldvl/ESC-50) data, and replaced the original `random param CNN` with pre-trained CNN.
 	* Their [result demo](http://lonce.org/research/audioST/) shows that **although style transfer does work without regard to weights, a network trained for
 audio classification appears to generate a more integrated synthesis of content and style**
-
+- [ ] [ObamaNet: Photo-realistic lip-sync from text](https://arxiv.org/pdf/1801.01442.pdf)
+- [ ] [One-shot learning of generative speech concepts](https://cims.nyu.edu/~brenden/LakeLeeEtAl2014CogSci.pdf)
+- [ ] [CHAR2WAV: END-TO-END SPEECH SYNTHESIS](https://mila.quebec/wp-content/uploads/2017/02/end-end-speech.pdf)
 ## License
 This project is licensed under the terms of the MIT license.
 
