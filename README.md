@@ -65,6 +65,7 @@ audio classification appears to generate a more integrated synthesis of content 
 - [ ] [ObamaNet: Photo-realistic lip-sync from text](https://arxiv.org/pdf/1801.01442.pdf)
 - [ ] [One-shot learning of generative speech concepts](https://cims.nyu.edu/~brenden/LakeLeeEtAl2014CogSci.pdf)
 - [ ] [CHAR2WAV: END-TO-END SPEECH SYNTHESIS](https://mila.quebec/wp-content/uploads/2017/02/end-end-speech.pdf)
+- [ ] [The Voice Conversion Challenge 2016](http://www.vc-challenge.org/vcc2016/summary.html)
 ## License
 This project is licensed under the terms of the MIT license.
 
