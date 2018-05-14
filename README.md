@@ -66,6 +66,13 @@ audio classification appears to generate a more integrated synthesis of content 
 - [ ] [One-shot learning of generative speech concepts](https://cims.nyu.edu/~brenden/LakeLeeEtAl2014CogSci.pdf)
 - [ ] [CHAR2WAV: END-TO-END SPEECH SYNTHESIS](https://mila.quebec/wp-content/uploads/2017/02/end-end-speech.pdf)
 - [ ] [The Voice Conversion Challenge 2016](http://www.vc-challenge.org/vcc2016/summary.html)
+
+### Random CNN
+- [ ] [A Powerful Generative Model Using Random Weights for the Deep Image Representation](https://arxiv.org/abs/1606.04801)
+- [ ] [Texture Synthesis Using Shallow Convolutional Networks with Random Filters](https://arxiv.org/abs/1606.00021)
+- [ ] [Extreme Style Machines:
+Using Random Neural Networks to Generate Textures](https://nucl.ai/blog/extreme-style-machines/)
+
 ## License
 This project is licensed under the terms of the MIT license.
 
