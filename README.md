@@ -41,7 +41,7 @@ My reading notes on DL papers, along with my personal comment of each paper, so 
 	* A fresh new paper by `Baidu` of using a few samples to generate a lot of TTS audio.
 
 #### Others
-- [x] [Towards End-to-End Speech Recognition with Deep Convolutional Neural]()
+- [x] [Towards End-to-End Speech Recognition with Deep Convolutional Neural](https://github.com/fancoo/Papers-Reading/blob/master/Speech/Towards%20End-to-End%20Speech%20Recognition%20with%20Deep%20Convolutional%20Neural.pdf)
 	* They found it's possiable to use **only CNN based** end-to-end model to do *Speech recognition*(**SR**) task, the results is as good as those of RNNs.
 	* They treat audio spectrogram as 2-D CNN, building with `CONV2D + Maxout + CTC` archicture and finally evaluating the model in TIMIT dataset.
 
