@@ -40,6 +40,11 @@ My reading notes on DL papers, along with my personal comment of each paper, so 
 - [ ] [Neural Voice Cloning with a Few Samples](https://arxiv.org/abs/1802.06006)
 	* A fresh new paper by `Baidu` of using a few samples to generate a lot of TTS audio.
 
+#### Others
+- [x] [Towards End-to-End Speech Recognition with Deep Convolutional Neural]()
+	* They found it's possiable to use **only CNN based** end-to-end model to do *Speech recognition*(**SR**) task, the results is as good as those of RNNs.
+	* They treat audio spectrogram as 2-D CNN, building with `CONV2D + Maxout + CTC` archicture and finally evaluating the model in TIMIT dataset.
+
 ### Voice Transfer
 Papers related with my current research.
 - [x] [Singing Expression Transfer from One Voice to Another for a Given Song](https://github.com/fancoo/Papers-Reading/blob/master/Voice-Transfer/SINGING%20EXPRESSION%20TRANSFER%20FROM%20ONE%20VOICE%20TO%20ANOTHER%20FOR%20A%20GIVEN%20SONG.pdf):star::star::star:
