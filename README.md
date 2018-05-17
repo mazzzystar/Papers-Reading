@@ -73,10 +73,14 @@ audio classification appears to generate a more integrated synthesis of content 
 - [ ] [The Voice Conversion Challenge 2016](http://www.vc-challenge.org/vcc2016/summary.html)
 
 ### Random CNN
-- [ ] [A Powerful Generative Model Using Random Weights for the Deep Image Representation](https://arxiv.org/abs/1606.04801)
+- [x] [A Powerful Generative Model Using Random Weights for the Deep Image Representation(NIPS 2016)](https://arxiv.org/abs/1606.04801) :star::star::star::star:
+	* This paper shows untrained network can be used for image representation. It used random weights for VGG archicture to do `Inverting deep representation`, `Texture synthesis` and `Style transfer`. And the result is comparable with the pretrained VGG.
+	* It shows we can use this for archicture comparison without training them. 
 - [ ] [Texture Synthesis Using Shallow Convolutional Networks with Random Filters](https://arxiv.org/abs/1606.00021)
 - [ ] [Extreme Style Machines:
 Using Random Neural Networks to Generate Textures](https://nucl.ai/blog/extreme-style-machines/)
+- [ ] [On Random Weights and
+Unsupervised Feature Learning(ICML 2011)](http://www.robotics.stanford.edu/~ang/papers/nipsdlufl10-RandomWeights.pdf)
 
 ## License
 This project is licensed under the terms of the MIT license.
