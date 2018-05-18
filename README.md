@@ -71,6 +71,8 @@ audio classification appears to generate a more integrated synthesis of content 
 - [ ] [One-shot learning of generative speech concepts](https://cims.nyu.edu/~brenden/LakeLeeEtAl2014CogSci.pdf)
 - [ ] [CHAR2WAV: END-TO-END SPEECH SYNTHESIS](https://mila.quebec/wp-content/uploads/2017/02/end-end-speech.pdf)
 - [ ] [The Voice Conversion Challenge 2016](http://www.vc-challenge.org/vcc2016/summary.html)
+- [ ] [A Fully Convolutional Neural Network for Speech Enhancement](https://arxiv.org/abs/1609.07132)
+	* A paper described how to use CNN for removing babble noise in a audio so as to enchance our hearing. It used encoder-decoder which may worthy to read.
 
 #### Some most related work !
 - [ ] [“Style” Transfer for Musical Audio Using Multiple Time-Frequency Representations(ICLR 2018 Rejected)](https://openreview.net/forum?id=BybQ7zWCb)
