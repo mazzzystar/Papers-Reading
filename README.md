@@ -72,6 +72,16 @@ audio classification appears to generate a more integrated synthesis of content 
 - [ ] [CHAR2WAV: END-TO-END SPEECH SYNTHESIS](https://mila.quebec/wp-content/uploads/2017/02/end-end-speech.pdf)
 - [ ] [The Voice Conversion Challenge 2016](http://www.vc-challenge.org/vcc2016/summary.html)
 
+#### Some most related work !
+- [ ] [“Style” Transfer for Musical Audio Using Multiple Time-Frequency Representations(ICLR 2018 Rejected)](https://openreview.net/forum?id=BybQ7zWCb)
+	* Github: [Style-Transfer-for-Musical-Audio](https://github.com/anonymousiclr2018/Style-Transfer-for-Musical-Audio)
+- [ ] [Time Domain Neural Audio Style Transfer(NIPS 2017 Workshop)](https://arxiv.org/pdf/1711.11160.pdf)
+	* Github: [time-domain-neural-audio-style-transfer](https://github.com/pkmital/time-domain-neural-audio-style-transfer)
+- [x] [On Using Backpropagation for Speech Texture Generation and Voice Conversion(Google, 2018.03)](https://github.com/fancoo/Papers-Reading/blob/master/Voice-Transfer/%20On%20Using%20Backpropagation%20for%20Speech%20Texture%20Generation%20and%20Voice%20Conversion.pdf):star::star::star::star:
+- [ ] [Neural Style Transfer for Audio Spectrograms(NIPS 2017 Workshop)](https://arxiv.org/abs/1801.01589)
+- [ ] [Audio texture synthesis and style transfer(Blog)](https://dmitryulyanov.github.io/audio-texture-synthesis-and-style-transfer/)
+	* Github: [neural-style-audio-tf](https://github.com/DmitryUlyanov/neural-style-audio-tf)
+
 ### Random CNN
 - [x] [A Powerful Generative Model Using Random Weights for the Deep Image Representation(NIPS 2016)](https://github.com/fancoo/Papers-Reading/blob/master/Voice-Transfer/A%20Powerful%20Generative%20Model%20Using%20Random%20Weights%20for%20the%20Deep%20Image%20Representation.pdf) :star::star::star::star:
 	* This paper shows untrained network can be used for image representation. It used random weights for VGG archicture to do `Inverting deep representation`, `Texture synthesis` and `Style transfer`. And the result is comparable with the pretrained VGG.
