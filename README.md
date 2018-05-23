@@ -83,6 +83,10 @@ audio classification appears to generate a more integrated synthesis of content 
 - [ ] [Neural Style Transfer for Audio Spectrograms(NIPS 2017 Workshop)](https://arxiv.org/abs/1801.01589)
 - [ ] [Audio texture synthesis and style transfer(Blog)](https://dmitryulyanov.github.io/audio-texture-synthesis-and-style-transfer/)
 	* Github: [neural-style-audio-tf](https://github.com/DmitryUlyanov/neural-style-audio-tf)
+- [ ] [A Universal Music Translation Network(FAIR. 2018,May 21th)]()
+	* Use WaveNet autoencoder to translate music across musical instruments, genres, and styles. All instruments share the same encoder, but with different decoder.
+	* Two major loss, one is for the loss between decoder resconstruction with the ground-truth. the other is an instrument classification loss.
+	* The results can be listened on [youtube](https://www.youtube.com/watch?v=vdxCqNWTpUs). Though the transfer result is not as good as human musician for known voice, for the unknown voice(like whistling) the transfer results is even better than human. (Maybe because human are not so familiar with the melody ?)
 
 ### Random CNN
 - [x] [A Powerful Generative Model Using Random Weights for the Deep Image Representation(NIPS 2016)](https://github.com/fancoo/Papers-Reading/blob/master/Voice-Transfer/A%20Powerful%20Generative%20Model%20Using%20Random%20Weights%20for%20the%20Deep%20Image%20Representation.pdf) :star::star::star::star:
