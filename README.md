@@ -83,13 +83,8 @@ audio classification appears to generate a more integrated synthesis of content 
 - [ ] [Neural Style Transfer for Audio Spectrograms(NIPS 2017 Workshop)](https://arxiv.org/abs/1801.01589)
 - [ ] [Audio texture synthesis and style transfer(Blog)](https://dmitryulyanov.github.io/audio-texture-synthesis-and-style-transfer/)
 	* Github: [neural-style-audio-tf](https://github.com/DmitryUlyanov/neural-style-audio-tf)
-- [x] [A Universal Music Translation Network(FAIR. 2018,May 21th)](https://github.com/fancoo/Papers-Reading/blob/master/Voice-Transfer/A%20Universal%20Music%20Translation%20Network.pdf):star::star::star::star:
-	* Use WaveNet autoencoder to translate music across musical instruments, genres, and styles. All instruments share the same encoder, but with different decoder.
-	* Two major loss, one is for the loss between decoder resconstruction with the ground-truth. the other is an instrument classification loss.
-	* The results can be listened on [youtube](https://www.youtube.com/watch?v=vdxCqNWTpUs). Though the transfer result is not as good as human musician for known voice, for the unknown voice(like whistling) the transfer results is even better than human. (Maybe because human are not so familiar with the melody ?)
-	* They distance their work with Style Transfer, because they believe that **a melody played by a piano is not similar except for audio texture differences to the same melody sung by a chorus**
 
-### Random CNN
+#### Random CNN Based
 - [x] [A Powerful Generative Model Using Random Weights for the Deep Image Representation(NIPS 2016)](https://github.com/fancoo/Papers-Reading/blob/master/Voice-Transfer/A%20Powerful%20Generative%20Model%20Using%20Random%20Weights%20for%20the%20Deep%20Image%20Representation.pdf) :star::star::star::star:
 	* This paper shows untrained network can be used for image representation. It used random weights for VGG archicture to do `Inverting deep representation`, `Texture synthesis` and `Style transfer`. And the result is comparable with the pretrained VGG.
 	* It shows we can use this for archicture comparison without training them, so we can save a lot of time of comparing different archictures. 
@@ -98,6 +93,35 @@ audio classification appears to generate a more integrated synthesis of content 
 Using Random Neural Networks to Generate Textures](https://nucl.ai/blog/extreme-style-machines/)
 - [ ] [On Random Weights and
 Unsupervised Feature Learning(ICML 2011)](http://www.robotics.stanford.edu/~ang/papers/nipsdlufl10-RandomWeights.pdf)
+
+#### Self-Attention Based
+- [ ] [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+	* The first paper of **Self-Attention** proposed by Google.
+- [ ] [Github:Deep-Expression](https://github.com/ttsunion/Deep-Expression)
+	* A github repo using only Self-Attention for TTS.
+- [ ] [Self-Attention Generative Adversarial Networks](https://arxiv.org/abs/1805.08318)
+	* Han Zhang, Ian Goodfellow.
+
+#### About Texture
+- [ ] [Image style transfer using convolutional neural networks. In: CVPR. (2016)]()
+- [ ] [Ulyanov, D., Lebedev, V., Vedaldi, A., Lempitsky, V.: Texture networks: Feed-forward synthesis of textures and stylized images. In: ICML. (2016)]()
+- [ ] [Johnson, J., Alahi, A., Fei-Fei, L.: Perceptual losses for real-time style transfer and superresolution. In: ECCV. (2016)]()
+
+#### WaveNet Based
+- [ ] [A Wavenet for Speech Denoising.(ICASSP2018)](https://arxiv.org/abs/1706.07162)
+	* An end-to-end learning method for speech denoising based on Wavenet.
+- [x] [A Universal Music Translation Network(FAIR. 2018,May 21th)](https://github.com/fancoo/Papers-Reading/blob/master/Voice-Transfer/A%20Universal%20Music%20Translation%20Network.pdf):star::star::star::star:
+	* Use WaveNet autoencoder to translate music across musical instruments, genres, and styles. All instruments share the same encoder, but with different decoder.
+	* Two major loss, one is for the loss between decoder resconstruction with the ground-truth. the other is an instrument classification loss.
+	* The results can be listened on [youtube](https://www.youtube.com/watch?v=vdxCqNWTpUs). Though the transfer result is not as good as human musician for known voice, for the unknown voice(like whistling) the transfer results is even better than human. (Maybe because human are not so familiar with the melody ?)
+	* They distance their work with Style Transfer, because they believe that **a melody played by a piano is not similar except for audio texture differences to the same melody sung by a chorus**
+- [ ] [Neural Audio Synthesis of Musical Notes with WaveNet Autoencoders(Submitted on 5 Apr 2017)](https://arxiv.org/abs/1704.01279)
+
+#### VAE & GAN
+- [ ] [van den Oord, A., Vinyals, O., kavukcuoglu, k.: Neural Discrete Representation Learning. In: NIPS. (2017)](https://arxiv.org/abs/1711.00937)
+	*  Vector Quantised-Variational AutoEncoder (VQ-VAE)
+- [ ] [Parallel-Data-Free Voice Conversion Using Cycle-Consistent Adversarial Networks]()
+	* Use CycleGAN for `Voice Conversion`.
 
 ## License
 This project is licensed under the terms of the MIT license.
