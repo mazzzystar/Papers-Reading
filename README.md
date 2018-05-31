@@ -27,6 +27,11 @@ My reading notes on DL papers, along with my personal comment of each paper, so 
 
 ### GAN for Image
 - [ ] [Self-Attention Generative Adversarial Networks(!!Important)](https://arxiv.org/abs/1805.08318)
+- [ ] [Conditional Generative Adversarial Nets](https://arxiv.org/abs/1411.1784)
+- [ ] [Wasserstein GAN](https://arxiv.org/abs/1701.07875)
+
+### Attention
+- [ ] [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 
 ### GAN for Text generation
 - [ ] [SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient]()
