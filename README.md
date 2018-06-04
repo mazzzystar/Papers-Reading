@@ -26,7 +26,7 @@ My reading notes on DL papers, along with my personal comment of each paper, so 
 - [ ] [Parallel WaveNet: Fast High-Fidelity Speech Synthesis](https://arxiv.org/abs/1711.10433)
 
 ### GAN for Image
-- [x] [Self-Attention Generative Adversarial Networks(!!Important)](https://arxiv.org/abs/1805.08318):star::star::star::star::star:
+- [x] [Self-Attention Generative Adversarial Networks(!!Important)](https://github.com/fancoo/Papers-Reading/blob/master/Generative-Model/Self-Attention%20Generative%20Adversarial%20Networks.pdf):star::star::star::star::star:
 	* Self-Attention GAN, boosting the best published Inception score from **36.8** to **52.52** and reducing Frechet Inception distance from **27.62** to **18.65** on the challenging ImageNet dataset.
 	* Using Self-Attention to learn long-range dependency. 
 	* Several tricks inside:
