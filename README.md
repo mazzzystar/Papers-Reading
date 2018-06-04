@@ -26,7 +26,13 @@ My reading notes on DL papers, along with my personal comment of each paper, so 
 - [ ] [Parallel WaveNet: Fast High-Fidelity Speech Synthesis](https://arxiv.org/abs/1711.10433)
 
 ### GAN for Image
-- [ ] [Self-Attention Generative Adversarial Networks(!!Important)](https://arxiv.org/abs/1805.08318)
+- [x] [Self-Attention Generative Adversarial Networks(!!Important)](https://arxiv.org/abs/1805.08318):star::star::star::star::star:
+	* Self-Attention GAN, boosting the best published Inception score from **36.8** to **52.52** and reducing Frechet Inception distance from **27.62** to **18.65** on the challenging ImageNet dataset.
+	* Using Self-Attention to learn long-range dependency. 
+	* Several tricks inside:
+		* Used Spectral-Normalization both on generator and discriminater, it proved to be more stable when training compared with `SN-GAN`.
+		* Showed two-timescale update rule (TTUR) is an effect way for faster converge.
+		* Indicated that self-attention mechanism at the middle-to-high level feature maps (e.g., feat32 and feat64) achieve better performance than at low level feature maps. The reason could be that the network receives more evidence with larger feature maps and enjoys more freedom to choose the conditions.
 - [ ] [Conditional Generative Adversarial Nets](https://arxiv.org/abs/1411.1784)
 - [ ] [Wasserstein GAN](https://arxiv.org/abs/1701.07875)
 
