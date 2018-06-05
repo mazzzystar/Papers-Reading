@@ -39,9 +39,16 @@ My reading notes on DL papers, along with my personal comment of each paper, so 
 ### Attention
 - [ ] [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 
-### GAN for Text generation
+### GAN for Text&Audio generation
 - [ ] [SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient]()
-
+- [x] [Synthesizing Audio with Generative Adversarial Networks](https://arxiv.org/abs/1802.04208):star::star::star::star:
+	* The first listenable GAN based audio generation work.
+	* Using several methods as below:
+		* 1D Conv(filter len=25) rather thant 5x5
+		* Upsample by factory of 4 at each layer
+		* Learned post processing filter & **Phase shuffle** to prevent discriminator learning to classify fake/real audio only by phase.
+	* Explore WaveGAN and SpecGAN, though the Inception Score of SpecGAN is higher (6.0) than WaveGAN(4.7), human prefer more about WaveGAN.(So is this means IC criterion can be updated ? Or means SpecGAN has some potential ?)
+	* Give a 0-9 audio dataset SC09.
 
 ## Speech
 ### WaveNet(Mentioned before)
@@ -70,7 +77,6 @@ Papers related with my current research.
 - [x] [Time Domain Neural Audio Style Transfer(NIPS2017)](https://github.com/fancoo/Papers-Reading/blob/master/Voice-Transfer/Time%20Domain%20Neural%20Audio%20Style%20Transfer.pdf):star::star::star:
 	* This paper presents a method for audio style transfer by directly optimizing a time domain audio signal, it explores many architectures(e.g WaveNet encoder/NSynth encoder), the result is almost the same as `Ulyanov` but real-time?
 	* The github implementation is [time-domain-neural-audio-style-transfer](https://github.com/pkmital/time-domain-neural-audio-style-transfer)
-- [ ] [Synthesizing Audio with Generative Adversarial Networks](https://arxiv.org/abs/1802.04208)
 - [ ] [Universal Style Transfer via Feature Transforms](https://arxiv.org/abs/1705.08086)
 - [x] [Audio Style Transfer](https://github.com/fancoo/Papers-Reading/blob/master/Voice-Transfer/Audio%20Style%20Transfer.pdf):star::star::star:
 	* Try with `VGG-19`, `SoundNet`, `Wide-Shallow-Random Network` and `McDermott's texture synthesis` method to extract the style. The last 2 has meaningful results, `McDermott's..` recreates better local texture.
