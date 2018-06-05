@@ -41,7 +41,7 @@ My reading notes on DL papers, along with my personal comment of each paper, so 
 
 ### GAN for Text&Audio generation
 - [ ] [SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient]()
-- [x] [Synthesizing Audio with Generative Adversarial Networks](https://arxiv.org/abs/1802.04208):star::star::star::star:
+- [x] [Synthesizing Audio with Generative Adversarial Networks](https://github.com/fancoo/Papers-Reading/blob/master/Generative-Model/Synthesizing%20Audio%20with%20Generative%20Adversarial%20Networks.pdf):star::star::star::star:
 	* The first listenable GAN based audio generation work.
 	* Using several methods as below:
 		* 1D Conv(filter len=25) rather thant 5x5
