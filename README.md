@@ -33,7 +33,12 @@ My reading notes on DL papers, along with my personal comment of each paper, so 
 		* Used Spectral-Normalization both on generator and discriminater, it proved to be more stable when training compared with `SN-GAN`.
 		* Showed two-timescale update rule (TTUR) is an effect way for faster converge.
 		* Indicated that self-attention mechanism at the middle-to-high level feature maps (e.g., feat32 and feat64) achieve better performance than at low level feature maps. The reason could be that the network receives more evidence with larger feature maps and enjoys more freedom to choose the conditions.
-- [ ] [Conditional Generative Adversarial Nets](https://arxiv.org/abs/1411.1784)
+- [x] [Conditional Generative Adversarial Nets](https://arxiv.org/abs/1411.1784):star::star::star::star:
+	* cGAN, you can embed information to control the generated result.
+	* The information is feeded both into generator & discriminator. This can be done by concating the `z`(after fc) with label `y`(after fc).  
+	* They experimented on MNIST generation with given number as `y`(one-hot), and a multimodel tagging, especially for the tagging work, they use an image as information by letting it pass through pretrained CNN to be the `y`.
+
+
 - [ ] [Wasserstein GAN](https://arxiv.org/abs/1701.07875)
 
 ### Attention
