@@ -54,7 +54,7 @@ My reading notes on DL papers, along with my personal comment of each paper, so 
 		* Learned post processing filter & **Phase shuffle** to prevent discriminator learning to classify fake/real audio only by phase.
 	* Explore WaveGAN and SpecGAN, though the Inception Score of SpecGAN is higher (6.0) than WaveGAN(4.7), human prefer more about WaveGAN.(So is this means IC criterion can be updated ? Or means SpecGAN has some potential ?)
 	* Give a 0-9 audio dataset SC09.
-- [x] [C-RNN-GAN: Continuous recurrent neural networks with adversarial training]():star::star::star::star:
+- [x] [C-RNN-GAN: Continuous recurrent neural networks with adversarial training](https://github.com/fancoo/Papers-Reading/blob/master/Generative-Model/C-RNN-GAN_%20Continuous%20recurrent%20neural%20networks%20with%20adversarial%20training.pdf):star::star::star::star:
 	* LSTM based Generater and Discriminator with the dataset of MIDI classic work.
 	* Apply trick such as `curriculum learning`(continuing increase sequence length.), `freezing`(control the capability of G and D) and `feature matching`(I don't understand here...)
 	* **Evaluation**: `Polyphony`, `Scale consistency`, `Repetitions`, `Tone span`.
