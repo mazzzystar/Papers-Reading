@@ -110,7 +110,10 @@ audio classification appears to generate a more integrated synthesis of content 
 - [ ] [The Voice Conversion Challenge 2016](http://www.vc-challenge.org/vcc2016/summary.html)
 - [ ] [A Fully Convolutional Neural Network for Speech Enhancement](https://arxiv.org/abs/1609.07132)
 	* A paper described how to use CNN for removing babble noise in a audio so as to enchance our hearing. It used encoder-decoder which may worthy to read.
-
+- [x] [Multi-target Voice Conversion without Parallel Data by Adversarially Learning
+Disentangled Audio Representations](https://arxiv.org/pdf/1804.02812.pdf):star::star::star::star:
+	* A paper from Prof `Hung-yi Lee` group, using encoder-decoder and speaker classifier to reconstruct same audio while trying to remove speaker texture of audio. Then using a GAN(Actually I had a chat with him and consist it's not GAN..) to make the result of transfer more smooth.
+	![](img/lee-voice-transfer.png)
 ### Some most related work !
 - [ ] [“Style” Transfer for Musical Audio Using Multiple Time-Frequency Representations(ICLR 2018 Rejected)](https://openreview.net/forum?id=BybQ7zWCb)
 	* Github: [Style-Transfer-for-Musical-Audio](https://github.com/anonymousiclr2018/Style-Transfer-for-Musical-Audio)
