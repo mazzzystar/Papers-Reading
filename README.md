@@ -115,6 +115,11 @@ Disentangled Audio Representations](https://arxiv.org/pdf/1804.02812.pdf):star::
 	* A paper from Prof `Hung-yi Lee` group, using encoder-decoder and speaker classifier to reconstruct same audio while trying to remove speaker texture of audio. Then using a GAN(Actually I had a chat with him and insisted it's not GAN..) to make the result of transfer more smooth.
 	![](img/lee-voice-transfer-arch.png)
 	![](img/lee-voice-transfer.png)
+- [x] [The challenge of realistic music generation:
+modelling raw audio at scale(DeepMind, 26 Jun 2018)](https://arxiv.org/abs/1806.10474)
+	* Authors of WaveNet wrote this paper aiming at capturing long structure of music generation, by using larger RF(RF = hop_size * sample_rate), training with VQ-VAE, and introduce the argmax autoencoder (AMAE) as an alternative to VQ-VAE.
+	![](img/AMAE.png)
+
 ### Some most related work !
 - [ ] [“Style” Transfer for Musical Audio Using Multiple Time-Frequency Representations(ICLR 2018 Rejected)](https://openreview.net/forum?id=BybQ7zWCb)
 	* Github: [Style-Transfer-for-Musical-Audio](https://github.com/anonymousiclr2018/Style-Transfer-for-Musical-Audio)
