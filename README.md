@@ -118,6 +118,7 @@ Disentangled Audio Representations](https://arxiv.org/pdf/1804.02812.pdf):star::
 - [x] [The challenge of realistic music generation:
 modelling raw audio at scale(DeepMind, 26 Jun 2018)](https://arxiv.org/abs/1806.10474)
 	* Authors of WaveNet wrote this paper aiming at capturing long structure of music generation, by using larger RF(RF = hop_size * sample_rate), training with VQ-VAE, and introduce the argmax autoencoder (AMAE) as an alternative to VQ-VAE.
+	
 	![](img/AMAE.png)
 
 ### Some most related work !
