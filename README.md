@@ -118,8 +118,13 @@ Disentangled Audio Representations](https://arxiv.org/pdf/1804.02812.pdf):star::
 - [x] [The challenge of realistic music generation:
 modelling raw audio at scale(DeepMind, 26 Jun 2018)](https://arxiv.org/abs/1806.10474)
 	* Authors of WaveNet wrote this paper aiming at capturing long structure of music generation, by using larger RF(RF = hop_size * sample_rate), training with VQ-VAE, and introduce the argmax autoencoder (AMAE) as an alternative to VQ-VAE.
-	
+
 	![](img/AMAE.png)
+- [x] [A Universal Music Translation Network(FAIR, 21 May 2018)](https://arxiv.org/abs/1805.07848)
+	* This paper aims at music style transfer(though they don't take it as style transfer). Different instruments share the same WaveNet `encoder`, and by **adding a classifier to remove speaker information(namely instruments texture)**, and then reconstruct them separately each instrument with their own `decoder`.
+	* They do transfer by putting A's audio into shared `encoder`, and then using B's `decoder` to reconstruct, so the output will be in A's content with B's style.
+
+	![](img/FAIR-music-distangle.png)
 
 ### Some most related work !
 - [ ] [“Style” Transfer for Musical Audio Using Multiple Time-Frequency Representations(ICLR 2018 Rejected)](https://openreview.net/forum?id=BybQ7zWCb)
