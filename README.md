@@ -13,7 +13,7 @@ My reading notes on DL papers, along with my personal comment of each paper, so 
 
 ## Generative Model
 ### VAE
-- [x] [Tutorial on Variational Autoencoders]():star::star::star::star::star:
+- [x] [Tutorial on Variational Autoencoders](https://github.com/fancoo/Papers-Reading/blob/master/Generative-Model/Tutorial%20on%20Variational%20Autoencoders.pdf):star::star::star::star::star:
 
 ### GAN for Image
 - [x] [Self-Attention Generative Adversarial Networks(!!Important)](https://github.com/fancoo/Papers-Reading/blob/master/Generative-Model/Self-Attention%20Generative%20Adversarial%20Networks.pdf):star::star::star::star::star:
@@ -156,7 +156,7 @@ Unsupervised Feature Learning(ICML 2011)](http://www.robotics.stanford.edu/~ang/
 - [ ] [Self-Attention Generative Adversarial Networks](https://arxiv.org/abs/1805.08318)
 	* Han Zhang, Ian Goodfellow.
 
-#### Texture
+### Texture
 - [ ] [Image style transfer using convolutional neural networks. In: CVPR. (2016)]()
 - [ ] [Ulyanov, D., Lebedev, V., Vedaldi, A., Lempitsky, V.: Texture networks: Feed-forward synthesis of textures and stylized images. In: ICML. (2016)]()
 - [ ] [Johnson, J., Alahi, A., Fei-Fei, L.: Perceptual losses for real-time style transfer and superresolution. In: ECCV. (2016)]()
