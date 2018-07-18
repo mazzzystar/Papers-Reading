@@ -12,18 +12,8 @@ My reading notes on DL papers, along with my personal comment of each paper, so 
 	* The drawback is the quality of stylized images is worse than "Fast" Neural Style which yet can only applies to finite styles.
 
 ## Generative Model
-- [x] [Pixel Recurrent Neural Networks(Best Paper of ICML2016)](https://github.com/fancoo/Papers-Reading/blob/master/Generative-Model/Pixel%20Recurrent%20Neural%20Networks.pdf) :star::star::star::star:
-	* I quickly skimmed this paper, it introduced a new method to generate image pixel by pixel with sequence model, which means **you can only predict current pixel by it's previous pixels(namely the pixels above and to the left of it).** To achieve this, they introduce a `mask` to make sure model can not read later pixels.
-	* The loss curve is much more smooth and interpretatable compared to GAN.
-- [x] [Conditional Image Generation with PixelCNN Decoders](https://github.com/fancoo/Papers-Reading/blob/master/Generative-Model/Conditional%20Image%20Generation%20with%20PixelCNN%20Decoders.pdf) :star::star::star::star::star:
-	* An improvement to PixelRNN & PixelCNN by adding an additional `Gated activation unit`.
-	* Use two stack(vertical and horizontal) to aviod the `blind spot` in Mask.
-	* Explore the performance of image generation in this kind of `Gated PixelCNN` in conditional distribution image, actually it seems not as good as GAN but, still another method and therefore lead to the famous [WaveNet](https://arxiv.org/abs/1609.03499).
-- [x] [WaveNet: A Generative Model for Raw Audio](https://github.com/fancoo/Papers-Reading/blob/master/Generative-Model/WaveNet_%20A%20Generative%20Model%20for%20Raw%20Audio.pdf) :star::star::star::star::star:
-	* A summary of papers of above, and use these methods in audio.
-	* Keywords: fuse the technic of `Dilated Casual Convolution`, `Gated Activation Units` and `residual network` along with `skip connections`.
-	* Based on Conditional WaveNet, they explored the experiments of `Multi-Speaker Speech Generation`, `TTS(Text-To-Speech)` and `Music Generation` by feeding additional input `h`. In speech generation, it's speaker ID of one-hot vector, in TTS it's the text while in music generation it's the tag of generated musich, like the instruments or the genre.
-- [ ] [Parallel WaveNet: Fast High-Fidelity Speech Synthesis](https://arxiv.org/abs/1711.10433)
+### VAE
+- [x] [Tutorial on Variational Autoencoders]():star::star::star::star::star:
 
 ### GAN for Image
 - [x] [Self-Attention Generative Adversarial Networks(!!Important)](https://github.com/fancoo/Papers-Reading/blob/master/Generative-Model/Self-Attention%20Generative%20Adversarial%20Networks.pdf):star::star::star::star::star:
@@ -40,9 +30,6 @@ My reading notes on DL papers, along with my personal comment of each paper, so 
 
 
 - [ ] [Wasserstein GAN](https://arxiv.org/abs/1701.07875)
-
-### Attention
-- [ ] [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 
 ### GAN for Text&Audio generation
 - [ ] [SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient]()
@@ -64,8 +51,23 @@ My reading notes on DL papers, along with my personal comment of each paper, so 
 - [ ] [MidiNet: A Convolutional Generative Adversarial Network for Symbolic-domain Music Generation(ISMIR’17)]()
 - [ ] [Language Generation with Recurrent Generative Adversarial Networks without Pre-training(ICML 2017 Workshop)]()
 
+### Attention
+- [ ] [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+
 ## Speech
-### WaveNet(Mentioned before)
+### WaveNet
+- [x] [Pixel Recurrent Neural Networks(Best Paper of ICML2016)](https://github.com/fancoo/Papers-Reading/blob/master/Generative-Model/Pixel%20Recurrent%20Neural%20Networks.pdf) :star::star::star::star:
+	* I quickly skimmed this paper, it introduced a new method to generate image pixel by pixel with sequence model, which means **you can only predict current pixel by it's previous pixels(namely the pixels above and to the left of it).** To achieve this, they introduce a `mask` to make sure model can not read later pixels.
+	* The loss curve is much more smooth and interpretatable compared to GAN.
+- [x] [Conditional Image Generation with PixelCNN Decoders](https://github.com/fancoo/Papers-Reading/blob/master/Generative-Model/Conditional%20Image%20Generation%20with%20PixelCNN%20Decoders.pdf) :star::star::star::star::star:
+	* An improvement to PixelRNN & PixelCNN by adding an additional `Gated activation unit`.
+	* Use two stack(vertical and horizontal) to aviod the `blind spot` in Mask.
+	* Explore the performance of image generation in this kind of `Gated PixelCNN` in conditional distribution image, actually it seems not as good as GAN but, still another method and therefore lead to the famous [WaveNet](https://arxiv.org/abs/1609.03499).
+- [x] [WaveNet: A Generative Model for Raw Audio](https://github.com/fancoo/Papers-Reading/blob/master/Generative-Model/WaveNet_%20A%20Generative%20Model%20for%20Raw%20Audio.pdf) :star::star::star::star::star:
+	* A summary of papers of above, and use these methods in audio.
+	* Keywords: fuse the technic of `Dilated Casual Convolution`, `Gated Activation Units` and `residual network` along with `skip connections`.
+	* Based on Conditional WaveNet, they explored the experiments of `Multi-Speaker Speech Generation`, `TTS(Text-To-Speech)` and `Music Generation` by feeding additional input `h`. In speech generation, it's speaker ID of one-hot vector, in TTS it's the text while in music generation it's the tag of generated musich, like the instruments or the genre.
+- [ ] [Parallel WaveNet: Fast High-Fidelity Speech Synthesis](https://arxiv.org/abs/1711.10433)
 
 ### Tactron
 - [ ] [Tacotron: Towards End-to-End Speech Synthesis](https://arxiv.org/abs/1703.10135)
@@ -83,7 +85,7 @@ My reading notes on DL papers, along with my personal comment of each paper, so 
 	* They found it's possiable to use **only CNN based** end-to-end model to do *Speech recognition*(**SR**) task, the results is as good as those of RNNs.
 	* They treat audio spectrogram as 2-D CNN, building with `CONV2D + Maxout + CTC` archicture and finally evaluating the model in TIMIT dataset.
 
-## Speech Conversion(Voice Style Transfer)
+### Speech Conversion(Voice Style Transfer)
 Papers related with my current research.
 - [x] [Singing Expression Transfer from One Voice to Another for a Given Song](https://github.com/fancoo/Papers-Reading/blob/master/Voice-Transfer/SINGING%20EXPRESSION%20TRANSFER%20FROM%20ONE%20VOICE%20TO%20ANOTHER%20FOR%20A%20GIVEN%20SONG.pdf):star::star::star:
 	* I skim the paper, it introduced a method of to improve our singing records: first we have a `source` audio(my voice), and a `target` audio which we want to sing as well as him/her. We first align the two pieces voice and compare them frame-by-fram with some features like phoneme etc.
@@ -136,7 +138,7 @@ modelling raw audio at scale(DeepMind, 26 Jun 2018)](https://arxiv.org/abs/1806.
 - [ ] [Audio texture synthesis and style transfer(Blog)](https://dmitryulyanov.github.io/audio-texture-synthesis-and-style-transfer/)
 	* Github: [neural-style-audio-tf](https://github.com/DmitryUlyanov/neural-style-audio-tf)
 
-### Random CNN Based
+### Random CNN
 - [x] [A Powerful Generative Model Using Random Weights for the Deep Image Representation(NIPS 2016)](https://github.com/fancoo/Papers-Reading/blob/master/Voice-Transfer/A%20Powerful%20Generative%20Model%20Using%20Random%20Weights%20for%20the%20Deep%20Image%20Representation.pdf) :star::star::star::star:
 	* This paper shows untrained network can be used for image representation. It used random weights for VGG archicture to do `Inverting deep representation`, `Texture synthesis` and `Style transfer`. And the result is comparable with the pretrained VGG.
 	* It shows we can use this for archicture comparison without training them, so we can save a lot of time of comparing different archictures. 
@@ -146,7 +148,7 @@ Using Random Neural Networks to Generate Textures](https://nucl.ai/blog/extreme-
 - [ ] [On Random Weights and
 Unsupervised Feature Learning(ICML 2011)](http://www.robotics.stanford.edu/~ang/papers/nipsdlufl10-RandomWeights.pdf)
 
-### Self-Attention Based
+### Self-Attention
 - [ ] [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 	* The first paper of **Self-Attention** proposed by Google.
 - [ ] [Github:Deep-Expression](https://github.com/ttsunion/Deep-Expression)
@@ -154,7 +156,7 @@ Unsupervised Feature Learning(ICML 2011)](http://www.robotics.stanford.edu/~ang/
 - [ ] [Self-Attention Generative Adversarial Networks](https://arxiv.org/abs/1805.08318)
 	* Han Zhang, Ian Goodfellow.
 
-#### About Texture
+#### Texture
 - [ ] [Image style transfer using convolutional neural networks. In: CVPR. (2016)]()
 - [ ] [Ulyanov, D., Lebedev, V., Vedaldi, A., Lempitsky, V.: Texture networks: Feed-forward synthesis of textures and stylized images. In: ICML. (2016)]()
 - [ ] [Johnson, J., Alahi, A., Fei-Fei, L.: Perceptual losses for real-time style transfer and superresolution. In: ECCV. (2016)]()
