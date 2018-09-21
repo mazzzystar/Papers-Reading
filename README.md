@@ -57,7 +57,7 @@ My reading notes on DL papers, along with my personal comment of each paper, so 
 	* The first paper that proposed `Attention`.
 - [ ] [Effective Approaches to Attention-based Neural Machine Translation](https://arxiv.org/abs/1508.04025)
 	* Proposed `global` and `local` attention.
-	![](img/gloabl_attn.png)
+	![](img/global_attn.png)
 
 ## Speech
 ### WaveNet
