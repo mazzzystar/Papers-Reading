@@ -89,6 +89,9 @@ My reading notes on DL papers, along with my personal comment of each paper, so 
 - [x] [Towards End-to-End Speech Recognition with Deep Convolutional Neural](https://github.com/fancoo/Papers-Reading/blob/master/Speech/Towards%20End-to-End%20Speech%20Recognition%20with%20Deep%20Convolutional%20Neural.pdf) :star::star::star:
 	* They found it's possiable to use **only CNN based** end-to-end model to do *Speech recognition*(**SR**) task, the results is as good as those of RNNs.
 	* They treat audio spectrogram as 2-D CNN, building with `CONV2D + Maxout + CTC` archicture and finally evaluating the model in TIMIT dataset.
+- [x] [Neural Speech Synthesis with Transformer Network](https://arxiv.org/abs/1809.08895). Code:[soobinseo/Transformer-TTS](https://github.com/soobinseo/Transformer-TTS)
+
+![](https://github.com/soobinseo/Transformer-TTS/raw/master/png/model.png)
 
 ### Speech Conversion(Voice Style Transfer)
 Papers related with my current research.
